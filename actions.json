@@ -1,0 +1,15 @@
+{
+  "example": [
+    {"type": "keypress", "key": "a", "hold_duration": 0.5, "delay_after": 0.2},
+    {"type": "keypress", "key": "e", "hold_duration": 1.0, "delay_after": 0.2},
+    {"type": "keypress", "key": "r", "hold_duration": 0.5, "delay_after": 0.2},
+    {"type": "mouse_click", "position": [100, 200], "button": "left", "clicks": 1, "delay_after": 0.5},
+    {"type": "mouse_click", "button": "left", "clicks": 1, "delay_after": 0.5}
+  ],
+  "quickturn": [
+    {"type": "keypress", "key": "q", "hold_duration": 0.1, "delay_after": 0.2}
+    ],
+  "onlyknife": [
+    {"type": "keypress", "key": "space", "hold_duration": 30.0, "delay_after": 0.2}
+  ]
+}
